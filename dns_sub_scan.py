@@ -45,7 +45,7 @@ elif (escolha == '2'):
 		sys.exit(1)
 else:
 	print ('Programa  Finalizado')
-	sys.exit(1)
+	sys.exit(0)
 print ('\n =====================================================\n')
 #Executando a verificacao de subdominios:
 print ("\n Executando a busca de subdominios: \n")
@@ -66,7 +66,7 @@ print ('\n =====================================================\n')
 print ('\n Subdominios encontrados:\n')
 for key in sub_encontrados:
 	print(key, ':', sub_encontrados[key])
-sys.exit(1)
+sys.exit(0)
 
 
 
